@@ -1,49 +1,31 @@
 {
-    "default_model": "CyberRealisticPony_V12.7_FP16.safetensors",
+    "default_model": "CyberRealisticPony_V13.0_FP32.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
-        [
-            true,
-            "None",
-            1.0
-        ],
-        [
-            true,
-            "None",
-            1.0
-        ],
-        [
-            true,
-            "None",
-            1.0
-        ],
-        [
-            true,
-            "None",
-            1.0
-        ],
-        [
-            true,
-            "None",
-            1.0
-        ]
+        [true, "AmateurStyle_v1_PONY_REALISM.safetensors", 0.5],
+        [true, "Rawfully_Stylish_v0.2.safetensors", 0.2],
+        [true, "igbaddie-PN.safetensors", 0.3],
+        [true, "None", 1.0],
+        [true, "None", 1.0]
     ],
     "default_cfg_scale": 7.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_sampler": "dpmpp_2m_sde",
     "default_scheduler": "karras",
-    "default_performance": "Speed",
-    "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_performance": "Quality",
+    "default_prompt": "score_9, score_8_up, score_7_up, girl with blonde hair, seductive look, CyberRealisticPony_POSV1",
+    "default_prompt_negative": "score_6, score_5, score_4, bad anatomy, blurry, CyberRealistic_Negative_PONY-neg",
     "default_styles": [
-        "Fooocus Pony"
+        "CyberRealistic Pony"
     ],
-    "default_aspect_ratio": "896*1152",
-    "default_overwrite_step": -1,
+    "default_aspect_ratio": "832*1216",
+    "default_overwrite_step": 35,
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
-        "CyberRealisticPony_V12.7_FP16.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V12.7_FP16.safetensors"
+        "CyberRealisticPony_V13.0_FP32.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V13.0_FP32.safetensors"
     },
-
+    "embeddings_downloads": {},
+    "lora_downloads": {},
+    "previous_default_models": []
 }
