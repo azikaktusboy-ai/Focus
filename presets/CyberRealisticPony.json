@@ -3,29 +3,44 @@
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
-        [true, "AmateurStyle_v1_PONY_REALISM.safetensors", 0.5],
-        [true, "Rawfully_Stylish_v0.2.safetensors", 0.2],
-        [true, "igbaddie-PN.safetensors", 0.3],
+        [true, "AmateurStyle_v1_PONY_REALISM.safetensors", 0.7],
+        [true, "Rawfully_Stylish_v0.2.safetensors", 0.4],
+        [true, "igbaddie-PN.safetensors", 0.6],
         [true, "None", 1.0],
         [true, "None", 1.0]
     ],
-    "default_cfg_scale": 7.0,
+    "default_cfg_scale": 6.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde",
+    "default_sampler": "dpmpp_3m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Quality",
     "default_prompt": "score_9, score_8_up, score_7_up, girl with blonde hair, seductive look, CyberRealisticPony_POSV1",
     "default_prompt_negative": "score_6, score_5, score_4, bad anatomy, blurry, CyberRealistic_Negative_PONY-neg",
-    "default_styles": [
-        "CyberRealistic Pony"
-    ],
-    "default_aspect_ratio": "832*1216",
-    "default_overwrite_step": 35,
+    "default_styles": [],
+    "default_aspect_ratio": "1024*1024",
+    "default_overwrite_step": 0,
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
         "CyberRealisticPony_V13.0_FP32.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V13.0_FP32.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
-    "previous_default_models": []
+    "previous_default_models": [],
+    "advanced_parameters": {
+        "positive_adm_guidance_scaler": 1.0,
+        "negative_adm_guidance_scaler": 1.0,
+        "adm_guidance_end_at_step": -1,
+        "refiner_swap_method": "joint",
+        "cfg_mimicking_tsnr": 7.0,
+        "clip_skip": 2,
+        "generate_image_grid": false,
+        "forced_overwrite_sampling_step": -1,
+        "forced_overwrite_refiner_switch_step": -1,
+        "forced_overwrite_width": -1,
+        "forced_overwrite_height": -1,
+        "forced_overwrite_denoising_vary": -1,
+        "forced_overwrite_denoising_upscale": -1,
+        "disable_seed_increment": false,
+        "save_only_final_enhanced_image": true
+    }
 }
