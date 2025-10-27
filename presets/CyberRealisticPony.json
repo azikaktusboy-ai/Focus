@@ -21,7 +21,7 @@
     "default_overwrite_step": 0,
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
-        "CyberRealisticPony_V13.0_FP32.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V13.0_FP32.safetensors"
+        "CyberRealisticPony_V13.0_FP32.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V14.0.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
@@ -42,3 +42,4 @@
     "default_disable_seed_increment": false,
     "default_save_only_final_enhanced_image": true
 }
+
