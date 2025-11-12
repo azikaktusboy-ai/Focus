@@ -15,7 +15,7 @@
     "default_scheduler": "karras",
     "default_performance": "Quality",
     "default_prompt": "score_9, score_8_up, score_7_up, ",
-    "default_prompt_negative": "score_6, score_5, score_4, (worst quality:1.2), (low quality:1.2), (normal quality:1.2), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs
+    "default_prompt_negative": "score_6, score_5, score_4, \(worst quality\:1.2\), \(low quality\:1.2\), \(normal quality\:1.2\), lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs
 ",
     "default_styles": [],
     "default_aspect_ratio": "1024*1024",
@@ -43,6 +43,7 @@
     "default_disable_seed_increment": false,
     "default_save_only_final_enhanced_image": true
 }
+
 
 
 
