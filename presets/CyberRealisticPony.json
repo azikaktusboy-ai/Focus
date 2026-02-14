@@ -1,5 +1,5 @@
 {
-    "default_model": "CyberRealisticPony_V13.0_FP32.safetensors",
+    "default_model": "CyberRealisticPony_V16.0_FP32.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -42,6 +42,7 @@
     "default_disable_seed_increment": false,
     "default_save_only_final_enhanced_image": true
 }
+
 
 
 
