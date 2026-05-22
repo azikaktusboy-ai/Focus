@@ -21,7 +21,7 @@
     "default_overwrite_step": 45,
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
-        "sd3.5_large.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large/resolve/main/sd3.5_large.safetensors"
+        "sd3.5_large.safetensors": "https://huggingface.co/buckets/NotGodButDwarf/sd3/resolve/sd3.5_large.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
